@@ -1,6 +1,13 @@
-node_modules/
-dist/
-.DS_Store
-.env
-.env.*
+# Node dependencies
+node_modules
+dist
 
+# Local environment files (never commit these)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Optional IDE / system files
+.DS_Store
+.vscode/
