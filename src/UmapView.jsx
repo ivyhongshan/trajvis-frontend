@@ -3,9 +3,10 @@ import React, { useEffect, useMemo, useState } from "react";
 import { interpolatePlasma } from "d3-scale-chromatic";
 import { interpolateRgb } from "d3-interpolate";
 import { interpolateTurbo } from "d3-scale-chromatic";
+import { BACKEND_URL } from "./config";
 
-const BACKEND_URL =
-  "https://hliu-trajvis-backend-77662524617.us-central1.run.app";
+// const BACKEND_URL =
+//   "https://hliu-trajvis-backend-77662524617.us-central1.run.app";
 const SIZE = 640;
 const MARGIN = 24;
 

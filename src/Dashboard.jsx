@@ -4,9 +4,10 @@ import PatientView from "./PatientView";
 import ClinicalIndicatorView from "./ClinicalIndicatorView";
 import AnalysisView from "./AnalysisView";
 import UmapView from "./UmapView";
+import { BACKEND_URL } from "./config";
 
-const BACKEND_URL =
-  "https://hliu-trajvis-backend-77662524617.us-central1.run.app";
+// const BACKEND_URL =
+//   "https://hliu-trajvis-backend-77662524617.us-central1.run.app";
 // const PATIENT_ID = 42747;
 
 // 与现有 normalize 对齐

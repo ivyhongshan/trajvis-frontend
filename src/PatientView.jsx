@@ -2,9 +2,10 @@ import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer,
 } from "recharts";
 import React, { useEffect, useMemo, useRef, useState } from "react";
+import { BACKEND_URL } from "./config";
 
-const BACKEND_URL =
-  "https://hliu-trajvis-backend-77662524617.us-central1.run.app";
+// const BACKEND_URL =
+//   "https://hliu-trajvis-backend-77662524617.us-central1.run.app";
 // const PATIENT_ID = 42747;
 
 
